@@ -59,7 +59,7 @@ async def filter(client, message):
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"subinps#{file_id}")]
                     )
         else:
-            await client.send_sticker(chat_id=message.from_user.id, sticker='AAMCBQADGQEAARdgHmMEmavdJXiWPeeHSwOOPo90zlXcAAICBAACbdkBV_tt4FjUZmTcAQAHbQADKQQ')
+            await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEXYB5jBJmr3SV4lj3nh0sDjj6PdM5V3AACAgQAAm3ZAVf7beBY1GZk3CkE')
             return
 
         if not btn:
