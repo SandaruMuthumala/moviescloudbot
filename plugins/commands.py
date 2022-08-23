@@ -192,7 +192,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='SfzProjectsSL'),
+            InlineKeyboardButton('Update Channel', url='FilmsWithSinhala_Sub'),
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/SfzProjectsSL'>Click here</a>\nUpdates Channel🔔 : <a href='https://t.me/SfzProjectsSL'>SFZ Updates</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/FilmsWithSinhala_Sub'>Click here</a>\nUpdates Channel🔔 : <a href='https://t.me/FilmsWithSinhala_Sub'>Movies With Sinhala Sub. 🇱🇰</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
