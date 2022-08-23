@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Movies🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Updates Channel🔔", url="https://t.me/SfzProjectsSL")
+                        InlineKeyboardButton("Updates Channel🔔", url="https://t.me/FilmsWithSinhala_Sub")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
